@@ -24,5 +24,5 @@ psql -U postgres -h localhost
 以下のコマンドを実行するとdocsディレクトリにドキュメントが生成される。
 
 ```bash
-docker run --network docker_postgres_default --rm -v "$PWD/docs:/output" -v "$PWD/schemaspy.properties:/schemaspy.properties" schemaspy/schemaspy:lates
+docker run --network docker_postgres_default --rm -v "$PWD/docs:/output" -v "$PWD/schemaspy.properties:/schemaspy.properties" schemaspy/schemaspy:latest
 ```
